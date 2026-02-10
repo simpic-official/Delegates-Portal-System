@@ -15,6 +15,11 @@ is an international academic competition organized by the
 
 The **15th Anniversary (SIMPIC 2026)** is a milestone year, introducing digital systems to enhance delegate experience, accessibility, and operational efficiency.
 
+## 🖥 Interface Preview
+
+![Preview Page](Preview01.png)
+![Preview Page](Preview02.png)
+
 ---
 
 ## ✨ Key Features
