@@ -1,0 +1,30 @@
+{
+  "basePath": "/d",
+  "delegates": [
+    {
+      "id": "SIMPIC-EXAMPLE-001",
+      "profile": {
+        "fullName": "Aroha Williams",
+        "nickname": "Aroha",
+        "university": "University of Auckland",
+        "country": "New Zealand",
+        "birthday": "2004-08-12",
+        "package": "Full Package"
+      },
+      "stay": {
+        "hotel": "Riverside Grand Hotel, Bangkok",
+        "checkIn": "2026-03-12",
+        "checkOut": "2026-03-16"
+      },
+      "excursion": {
+        "routeName": "Ayutthaya Heritage Day",
+        "stops": [
+          "Bang Pa-In Palace",
+          "Wat Mahathat",
+          "Wat Chaiwatthanaram",
+          "Local Thai lunch"
+        ]
+      }
+    }
+  ]
+}
