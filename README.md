@@ -1,82 +1,5 @@
 # 🎓 SIMPIC Delegate Portal System (SIMPIC DPS)
 
-A secure, lightweight, and user-friendly **Delegate Portal System** developed for the  
-**15th Anniversary of SIMPIC (SIMPIC 2026)**.
-
-This system allows each delegate to access their **personalized event information** using a unique **Delegate ID** — no login, no account creation, and no backend database required.
-
----
-
-## 🌍 About SIMPIC
-
-**SIMPIC (Siriraj International Medical Microbiology, Parasitology, and Immunology Competition)**  
-is an international academic competition organized by the  
-**Faculty of Medicine Siriraj Hospital, Mahidol University**.
-
-The **15th Anniversary (SIMPIC 2026)** marks a milestone year, introducing digital systems to
-enhance delegate experience, accessibility, and operational efficiency.
-
----
-
-## ✨ Key Features
-
-- 🔐 **Delegate ID–based access**
-- 📄 **Personalized delegate profile page**
-- 📎 **Static JSON-based verification**
-- 🔗 **Sharable personal access link**
-- ⚡ **Fast, lightweight, fully static**
-- 🎨 **SIMPIC 2026 glassmorphism UI**
-
----
-
-## 🧱 Tech Stack
-
-- **Frontend:** React (Vite)
-- **Styling:** CSS (custom, glassmorphism)
-- **Routing:** React Router
-- **Data Source:** Static JSON
-- **Deployment:** Vercel / Static Hosting
-
----
-
-## 📁 Project Structure
-
-src/
-├── components/ # Reusable UI components
-├── pages/ # Page-level components
-├── data/ # Delegate JSON data
-│ └── delegates.json
-├── App.jsx # App routing
-├── main.jsx # Entry point
-└── styles.css # Global styles
-
-
----
-
-## 🧭 How It Works
-
-1. Delegate receives a **Delegate ID** from SIMPIC (email / badge / QR code)
-2. Delegate opens the portal
-3. Enters the Delegate ID on the home page
-4. System validates the ID against static JSON
-5. Delegate is redirected to their **personal delegate profile page**
-
----
-
-## 🆔 Delegate ID Format
-
-SIMPIC-XXXX-001
-
-
-> Delegate IDs must exactly match entries in the JSON file.
-
----
-You said:
-full code for readme.md
-
-ChatGPT said:
-# 🎓 SIMPIC Delegate Portal System (SIMPIC DPS)
-
 A secure, lightweight, and user-friendly **Delegate Portal System** built for the  
 **15th Anniversary of SIMPIC (SIMPIC 2026)**.
 
@@ -143,7 +66,7 @@ src/
 
 ---
 
-## 🆔 Delegate ID Format
+## Delegate ID Format
 
 Example format:
 
@@ -153,36 +76,6 @@ SIMPIC-EXAMPLE-001
 ✅ IDs must exactly match the JSON records (including hyphens, case, and spacing).
 
 ---
-
-## 🗃 Delegate Data (JSON)
-
-Delegate records are stored as static JSON (example):
-
-```json
-{
-  "id": "SIMPIC-EXAMPLE-001",
-  "fullName": "Aroha Williams",
-  "nickname": "Aroha",
-  "university": "University of Auckland",
-  "country": "New Zealand",
-  "birthday": "2004-08-12",
-  "package": "Full Package",
-  "stay": {
-    "hotel": "Riverside Grand Hotel, Bangkok",
-    "checkIn": "2026-03-12",
-    "checkOut": "2026-03-16"
-  },
-  "excursion": {
-    "route": "Ayutthaya Heritage Day",
-    "stops": [
-      "Bang Pa-In Palace",
-      "Wat Mahathat",
-      "Wat Chaiwatthanaram",
-      "Local Thai Lunch"
-    ]
-  }
-}
-You can extend fields as needed (dietary needs, emergency contact, schedule, team info, etc.).
 
 🚀 Getting Started (Local Development)
 1) Install dependencies
