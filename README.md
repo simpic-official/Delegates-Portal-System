@@ -82,9 +82,7 @@ SIMPIC-EXAMPLE-001
 npm install
 2) Run dev server
 npm run dev
-Open:
-
-http://localhost:5173
+Open: http://localhost:5173
 3) Build for production
 npm run build
 npm run preview
